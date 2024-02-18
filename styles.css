@@ -1,0 +1,75 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: black;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .body0 {
+    max-width: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .body1 {
+    display: flex;
+    justify-content: center;
+    max-height: 130vh;
+    width: 80vh;
+    background-color: rgba(15, 169, 180, 0.04);
+  }
+  
+  .header {
+    background-color: rgba(0, 234, 255, 0.032);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .button-options {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+  }
+  
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .intercative {
+    background-color: rgba(12, 43, 45, 0.09);
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .likes-options {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .save {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .fa:hover {
+    background-color: rgba(8, 243, 255, 1);
+    border-radius: 30%;
+    padding: 0 3%;
+  }
